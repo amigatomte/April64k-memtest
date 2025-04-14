@@ -1,0 +1,13 @@
+{
+    "name": "Main",
+    "description": "Project Main",
+    "toolkit": "kick",
+    "sources": [
+        "main.asm"
+    ],
+    "build": "debug",
+    "definitions": [],
+    "includes": [],
+    "args": [],
+    "compiler": ""
+}

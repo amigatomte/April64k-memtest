@@ -1,0 +1,17 @@
+// * = $8000
+ 
+     .word coldstart            // coldstart vector
+     .word warmstart            // warmstart vector
+     .byte $C3,$C2,$CD,$38,$30  // "CBM8O". Autostart string
+ 
+coldstart:
+     sei
+     stx $d016
+     jsr $fda3 //Prepare IRQ
+     jsr $fd50 //Init memory. Rewrite this routine to speed up boot process.
+     jsr $fd15 //Init I/O
+     jsr $ff5b //Init video
+     cli
+ 
+warmstart:
+// Insert your code here
