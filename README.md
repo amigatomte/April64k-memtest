@@ -1,3 +1,5 @@
+![logo](images/logo.png)
+
 # April64k C64 Memory Test Cartridge
 
 This cartridge implements a comprehensive memory test for the Commodore 64 using the March-B testing algorithm. It is designed to rigorously check memory integrity without using any untested memory, ensuring system stability during the test. The code fits into a standard 8k cartridge.
