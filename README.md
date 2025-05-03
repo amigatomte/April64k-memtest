@@ -61,7 +61,8 @@ After the segmented tests, the cartridge tests all memory from **$0400 to $FFFF*
   If no faults are found, the test automatically restarts after a 10-second delay.
 
 ---
-
+![Screenshot](images/April64k.png)
+---
 ## How to Use
 
 1. **Insert Cartridge:**  
